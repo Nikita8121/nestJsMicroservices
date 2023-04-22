@@ -49,6 +49,7 @@ export class UserEntity implements IUser {
       }
       return c;
     });
+    return this
   }
 
   public getPublicProfile() {
